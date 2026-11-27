@@ -17,16 +17,21 @@ The `.claude/skills/` folder holds `write-plan` (drafts `plan/PLAN.md`) and `cle
 
 ## Structure and content
 
-`content/business.ts` holds the starter's shared business details and sample copy. When building a
-site, write page-specific copy directly in the route's `app/**/page.tsx` as JSX children of named React
+`content/business.ts` holds shared business details (office address, emails, phones, office hours,
+Equal Housing statement and Contact guidance). Structured domain collections live in:
+- `content/plans.ts` (management plans and letterbox numbers)
+- `content/fees.ts` (itemised USD fee schedule, estimator maths and example statement — single source of truth for the headline percentage)
+- `content/leasing-steps.ts` (8 ordered leasing steps and plan coverage)
+- `content/neighbourhoods.ts` (Portland neighbourhoods and `open` / `waitlist` intake status)
+- `content/maintenance.ts` (emergency/urgent/routine repair tiers, safety first step and email checklist)
+- `lib/validate-content.ts` (item-specific validation run by `tests/content.test.ts`)
+
+Write page-specific copy directly in the route's `app/**/page.tsx` as JSX children of named React
 components. Put headings, calls to action, labels and captions in page order. Backing components
-own the semantic markup, Tailwind styles, accessibility and behavior. Keep typed data in `content/`
-for values the site reads programmatically, including contact details and structured collections.
-Document fields and validate IDs, required
-fields, prices, availability and references with item-specific failures. Rename in content and
-site.config.json. Keep the provisioner's config shape: name, description, domain, optional timeZone,
-jamstacks.siteId/cdnUrl and optional provisioningId. Business data never goes there. Reuse the design's
-illustrations and palette rather than adding unrelated assets.
+own the semantic markup, Tailwind styles, accessibility and behavior. Keep `site.config.json` in the
+provisioner's config shape: name, description, domain, optional timeZone, jamstacks.siteId/cdnUrl
+and optional provisioningId. Business data never goes there. Reuse the design's illustrations and
+palette rather than adding unrelated assets.
 
 ## Styling: Tailwind CSS v4
 

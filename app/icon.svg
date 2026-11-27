@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#2457a7"/><path d="M17 20h30v24H17zM24 14v36M40 14v36" fill="none" stroke="#fff" stroke-width="4"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="10" fill="#1D2321"/>
+  <rect x="4" y="4" width="56" height="56" rx="7" stroke="#A9B0A9" stroke-opacity="0.35" stroke-width="1.5"/>
+  <!-- Alder leaf bow of key -->
+  <path d="M23 14C14 14 10 21 10 28C10 35 14 42 23 42C29.5 42 33 36.5 34 31H48V37H53V31H56V25H34C33 19.5 29.5 14 23 14Z" fill="#A3401C" stroke="#F6F7F3" stroke-width="2" stroke-linejoin="miter"/>
+  <!-- Leaf vein inside bow -->
+  <path d="M16 28H29M21 28L25 23M21 28L25 33" stroke="#F6F7F3" stroke-width="1.75" stroke-linecap="square"/>
+  <!-- Lit brass glow dot -->
+  <circle cx="48" cy="48" r="4" fill="#E9A93A"/>
+</svg>

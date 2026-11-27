@@ -1,0 +1,22 @@
+{
+  "templateId": "next-propertymanagement-modern",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "fullPage": false,
+  "captures": [
+    {
+      "mode": "light",
+      "sha256": "196eb001d73924f84e6a81e476f03216c8f5ed924ee836dce0004c0b7fa45d52",
+      "file": "jamstacks/home-light.jpg",
+      "bytes": 183720
+    },
+    {
+      "mode": "dark",
+      "sha256": "507534654a68f4bf582c2d78ad774e25a46e9b3846c8a092a0737ccc1dc58c07",
+      "file": "jamstacks/home-dark.jpg",
+      "bytes": 173890
+    }
+  ]
+}

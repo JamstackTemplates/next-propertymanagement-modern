@@ -1,7 +1,8 @@
 {
-  "name": "Jamstacks starter",
-  "description": "A neutral Next.js foundation for Jamstacks websites.",
-  "domain": "",
+  "name": "Alder Key Property Management",
+  "description": "Alder Key manages and leases rental homes across Portland for a clear 8% of collected rent. See every fee, request a free rental appraisal, or report a repair.",
+  "domain": "next-propertymanagement-modern.jamstacks.net",
+  "timeZone": "America/Los_Angeles",
   "jamstacks": {
     "siteId": "",
     "cdnUrl": "https://cdn.jamstacks.net"
